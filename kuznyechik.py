@@ -1,5 +1,15 @@
 # Kuznyechik Block Cipher
 
+# Russian:
+# https://web.archive.org/web/20150924113434/http://tc26.ru/standard/gost/GOST_R_3412-2015.pdf
+
+# English:
+# https://tools.ietf.org/pdf/rfc7801.pdf
+
+# Wikipedia:
+# https://en.wikipedia.org/wiki/Kuznyechik
+
+
 pi = [252, 238, 221, 17, 207, 110, 49, 22, 251, 196, 250, 218, 35, 197, 4, 77, 
      233, 119, 240, 219, 147, 46, 153, 186, 23, 54, 241, 187, 20, 205, 95, 193, 
      249, 24, 101, 90, 226, 92, 239, 33, 129, 28, 60, 66, 139, 1, 142, 79, 
