@@ -135,7 +135,7 @@ def L(x):
 
 # The input value x and the output value are 128-bits
 def L_inv(x):
-	for i in range(16):
+	for _ in range(16):
 		x = R_inv(x)
 	return x
 
