@@ -180,11 +180,8 @@ def kuznyechik_decrypt(x, k):
 
 PT = int('1122334455667700ffeeddccbbaa9988', 16)
 k = int('8899aabbccddeeff0011223344556677fedcba98765432100123456789abcdef', 16)
-
 CT = kuznyechik_encrypt(PT, k)
-
 DT = kuznyechik_decrypt(CT, k)
-
 print(PT == DT)
 
 
