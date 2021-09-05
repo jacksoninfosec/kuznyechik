@@ -81,8 +81,6 @@ def multiply_ints_as_polynomials(x, y):
 # Returns the number of bits that are used 
 # to store the positive integer integer x.
 def number_bits(x):
-	if x == 0:
-		return 0  
 	nb = 0
 	while x != 0:
 		nb += 1
